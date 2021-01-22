@@ -45,7 +45,7 @@ function createEmployeeRecords (array){
     return employeeRecords
 }
 
-function findEmployeebyFirstName (srcArray, firstName) {
+function findEmployeeByFirstName (srcArray, firstName) {
     return srcArray.find(record => record.firstName === firstName)
 }
 
